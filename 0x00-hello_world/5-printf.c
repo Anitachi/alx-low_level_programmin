@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/*main is to print phrase = with proper grammer, but the outcome is a piece of art*/
 
 int main(void)
 {
