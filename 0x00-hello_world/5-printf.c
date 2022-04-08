@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/*main is to print phrase = with proper grammer, but the outcome is a piece of art*/
+/* 
+ * first line prints the phrase
+ * return shoule be zero
+ */
 
 int main(void)
 {
