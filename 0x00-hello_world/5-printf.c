@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * first line prints the phrase
+ * main- Entry point
  * return shoule be zero
  */
 
