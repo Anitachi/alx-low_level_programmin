@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-* main is to print the phrase
+* main -Entry point
 * return is zero
 */
 
