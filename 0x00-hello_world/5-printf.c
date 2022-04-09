@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* main is to print the phrase
+/*
+* main is to print the phrase
 * return is zero
 */
 
