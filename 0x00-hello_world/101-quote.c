@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -and that piece of art is useful" - Dora Korpar, 2015-10-19
+ * main - write and that piece of art is useful"
+ *- Dora Korpar, 2015-10-19
  * return: answer should be 1
  */
 int main(void)
