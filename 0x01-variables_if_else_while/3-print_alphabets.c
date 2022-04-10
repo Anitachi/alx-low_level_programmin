@@ -20,6 +20,6 @@ int main(void)
 		for (b = 'A'; b <= 'Z'; b++)
 			putchar(b);
 	}
-	return (0)
+	return (0);
 }
 
