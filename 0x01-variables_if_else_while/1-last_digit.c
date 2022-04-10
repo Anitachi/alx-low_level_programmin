@@ -1,4 +1,4 @@
-#include <stlib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  *main- assign a randon number to the variable n each time it is executed
