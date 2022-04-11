@@ -12,13 +12,12 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
-	putchar('\n');
 	}
 	if (c == 'q' && 'e')
 
 	{
-
-	do not print;
+		print;
 	}
+	putchar('\n');
 	return (0);
 }
