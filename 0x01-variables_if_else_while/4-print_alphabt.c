@@ -13,11 +13,8 @@ int main(void)
 		putchar(c);
 {
 	if (c == 'q' && 'e')
-	{
 
 	continue;
-
-	}
 
 	putchar('\n');
 }
