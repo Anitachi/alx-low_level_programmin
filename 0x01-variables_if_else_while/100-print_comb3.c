@@ -9,20 +9,20 @@ int main(void)
 	int i;
 	int c;
 
-	for (i = 10; i <= 19; j++)
+	for (i = 10; i <= 19; i++)
 	{
 		for (c = 10; c <= 19; c++)
 		{
 			putchar((i % 10) + '0');
-			putchar((c % 10) + '0'0);
+			putchar((c % 10) + '0');
 			if (i != 18 || c != 19)
 			{
 				putchar(',');
-				putchar(' ')
+				putchar(' ');
 			}
 		}
 	}
 }
-putchar('\n')
-return (0)
+putchar('\n');
+return (0);
 	}
