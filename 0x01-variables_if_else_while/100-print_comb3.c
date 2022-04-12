@@ -13,6 +13,9 @@ int main(void)
 	{
 		for (c = 10; c <= 19; c++)
 		{
+			if ((c % 10) > (i % 10))
+			{
+
 			putchar((i % 10) + '0');
 			putchar((c % 10) + '0');
 			if (i != 18 || c != 19)
@@ -20,9 +23,10 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			}
+
 		}
 	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-	}
