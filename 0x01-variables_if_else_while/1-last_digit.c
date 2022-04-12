@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  *main- assign a randon number to the variable n each time it is executed
  *Return: is always 0
@@ -10,9 +10,9 @@ int main(void)
 {
 	int n;
 	int lastn;
-	
+
 	srand(time(0));
-	n= rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	lastn = n % 10;
 
 	if (lastn > 5)
