@@ -12,9 +12,9 @@ int main(void)
 
 	for  (i = 0; i <= 9; i++)
 	{
-		for (m = 0; m <= 9; k++)
+		for (m = 0; m <= 9; m++)
 		{
-			for (p = 0; p <= 9; k++)
+			for (p = 0; p <= 9; p++)
 			{
 				if (p > m && m > i)
 				{
