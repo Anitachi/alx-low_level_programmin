@@ -7,11 +7,10 @@
 
 int main(void)
 {
-	int = get_int(_putchar;)
+	char c [7] = "_putchat";
+	int i = 0;
 
-		int i;
-
-	for (int i = 0; i++)
+	for (int i = 0; i < 7; i++)
 	{
 		write("_putchar %i\n", i);
 	}
