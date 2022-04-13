@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	char c [7] = "_putchat";
+	char c [7] = "_putchar";
 	int i = 0;
 
-	for (int i = 0; i < 7; i++)
+	for (i = 0; i < 7; i++)
 	{
 		write("_putchar %i\n", i);
 	}
