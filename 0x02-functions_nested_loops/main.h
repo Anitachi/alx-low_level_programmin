@@ -2,7 +2,7 @@
 
 
 
-int _putchar(char c);
+int _putchat(char c);
 
 void print_alphabet(void);
 
