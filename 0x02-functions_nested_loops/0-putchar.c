@@ -7,12 +7,14 @@
 
 int main(void)
 {
-	char word [7] = get_char(word;)
-	int i = 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
-	for (i = 0; i < 7; i++)
-	{
-		_putchar(word[i]);
-	}
-	return (0);
+	return ();
 }
