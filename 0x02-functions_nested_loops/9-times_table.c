@@ -9,7 +9,7 @@ void times_table(void)
 	int p;
 	int i;
 
-	for (p = 0; i <= 9; p++)
+	for (p = 0; p <= 9; p++)
 	{
 
 		for (i = 0; i <= 9; i++)
@@ -35,6 +35,5 @@ void times_table(void)
 			}
 		}
 		_putchar('\n');
-		return (0);
 	}
 }
