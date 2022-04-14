@@ -6,13 +6,13 @@
 
 int main(void)
 {
-	int  = 0;
+	int i = 0;
 	long int a = 0;
 	long int b = 1, next;
 
 	while (i < 50)
 	{
-		next = a + b
+		next = a + b;
 		a = b;
 		b = next;
 		printf("%lu", next);
@@ -21,7 +21,7 @@ int main(void)
 		{
 			printf(",");
 		}
-		i++
+		i++;
 	}
 	putchar('\n');
 	return (0);
