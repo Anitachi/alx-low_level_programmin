@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * print_traingle - prints traingle
+ * print_triangle - prints traingle
  * @size: size of traingle
  */
-
 void print_triangle(int size)
 {
 	int i;
