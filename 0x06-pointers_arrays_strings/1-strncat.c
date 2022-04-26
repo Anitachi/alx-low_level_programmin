@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _strncat - Concatenates two stings
@@ -6,6 +7,7 @@
  * @n: number of the bytes
  * Return: return apointer to the resulting string dest
  */
+
 
 char *_strncat(char *dest, char *src, int n)
 {
@@ -27,3 +29,5 @@ char *_strncat(char *dest, char *src, int n)
 	dest[i] = '\0';
 	return (dest);
 }
+
+
