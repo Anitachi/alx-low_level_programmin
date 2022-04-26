@@ -11,6 +11,9 @@ char *cap_string(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
+<<<<<<< HEAD
 int _putchar(char c);
+=======
+>>>>>>> 083fb106e6d694a49b0891327a859f6c89f44728
 
 #endif
