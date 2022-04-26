@@ -1,12 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * set_string - sets the value of a pointer to a char
- * @s: pointer to pointer we need to set to
- * @to: string to set
+ * rot13 - encodes a string in rot13
+ * @s: string to be encoded
+ *
+ * Return: the resulting string
  */
-void set_string(char **s, char *to)
+char *rot13(char *s)
 {
-	*s = to;
-}
+	int i, j;
+
+	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; a[j] != '\0'; j++)
+		{
+			if (s[i] == a[j])
+			{
+				s[i] = b[j];
+				break;
+			}
+		}
+	}
+
+	return (s);
+}}
