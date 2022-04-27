@@ -11,9 +11,9 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar(45);
-		m = n * -1;
-	}
+	_putchar(45);
+       m = n * -1;
+        }  
 	else
 	{
 		m = n;
@@ -30,6 +30,6 @@ void print_number(int n)
 
 	for (; count >= 1; count /= 10)
 	{
-		_putchar(((m / count) % 10) + 48);
+	_putchar(((m / count) % 10) + 48);
 	}
 }
