@@ -1,1 +1,1 @@
-This level is the static library level in C
+Creating a static library in C
