@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *malloc_checked - array for prints a string
+ *malloc_checked - allocate memory
  *@b: number of memory
  *Return: void
  */
@@ -14,7 +14,11 @@ void *ptr;
 ptr = malloc(b);
 
 if (ptr == NULL)
+{
+
 exit(98);
+return (NULL);
+}
 
 return (ptr);
 }
