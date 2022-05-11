@@ -2,23 +2,20 @@
 #include <stdlib.h>
 
 /**
- *malloc_checked - allocate memory
- *@b: number of memory
- *Return: void
- */
+*malloc_checked - allocate memory
+*@b: number of memory
+*Return: pointer
+*/
 
 void *malloc_checked(unsigned int b)
 {
-void *ptr;
+char *p;
 
-ptr = malloc(b);
-
-if (ptr == NULL)
+p=malloc(b);
+if (p == NULL)
 {
-
 exit(98);
 return (NULL);
 }
-
-return (ptr);
+return (p);
 }
